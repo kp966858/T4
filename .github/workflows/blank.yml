@@ -14,7 +14,8 @@ on:
     # - feature
     # - release
   pull_request:
-    types: [assigned, opened, synchronize, reopened]
+    branches: [ "main" ]
+    types: [assigned, opened, synchronize, reopened, closed]
   #pull_request:
   #  branches:
   #    - main
