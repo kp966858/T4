@@ -7,10 +7,10 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches:
-     - main
-     - feature
-     - release
+    branches: [ "release" ]
+    # - main
+    # - feature
+    # - release
 
   #pull_request:
   #  branches:
